@@ -1,0 +1,40 @@
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #253342;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+
+.headerLinks {
+    list-style-type: none;
+    display: flex;
+}
+
+.headerLinks a{
+    padding-left: 3.25rem;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav .logo img{
+    width: 3.6rem;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 799px){
+    .topnav{
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .headerLinks li:first-child a{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+}

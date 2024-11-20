@@ -1,0 +1,65 @@
+
+.contform{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 770px;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 40px;
+    input, textarea{
+        width: 330px;
+        margin-bottom: 25px;
+        border: 1px solid white;
+        background-color: #253342;
+    }
+
+    input{
+        height: 25px;
+    }
+
+    textarea{
+        height: 130px;
+    }
+
+    button{
+        width: 330px;
+        height: 40px;
+        background-color: #dd6e42;
+        border: none;
+        color: white;
+    }
+
+    p{
+        margin-bottom: 8px;
+    }
+    
+    .wline{
+        width: 200px;
+        height: 2px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+
+    label{
+        padding-bottom: 7px;
+    }
+
+    .radio-group{
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        margin-bottom: 20px;
+        margin-top: 8px;
+
+        .radio-one, .radio-two{
+            display: flex;
+            align-items: center;
+        }
+
+        input{
+            width: 40px;
+        }
+    }
+
+}

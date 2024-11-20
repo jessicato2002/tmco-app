@@ -1,0 +1,153 @@
+
+.coursescont{
+    height: 450px;
+    background-color: #253342;
+    padding-top: 10px;
+    margin-top: 0px;
+    border: 1px solid #253342; 
+    color: white;
+    display: flex;
+
+    .courses{
+        
+        flex:1;
+        padding-top: 30px;
+        margin-left: 90px;
+        
+        p{
+            padding-left: 40px;
+            font-weight: 200;
+            font-size: 1.2rem;
+        }
+
+        .listcont{
+            display: flex;
+            align-items: flex-end;
+            ul{
+                font-weight: 600;
+                font-size: .95rem;
+                line-height: 1.4;
+            }
+
+            .decor{
+                width: 80px;
+                height:80px;
+                margin-right: 60px;
+            }
+        }
+
+        .orangebutton{
+            margin-top: 40px;
+            margin-left: 25px;
+            margin-right: 10px;
+        }
+
+    }
+
+    .moreinfo{
+        height: 100%;
+        flex:1;
+        margin-right: 90px;
+        padding-top: 20px;
+        display: flex;
+
+        .linedecor{
+            height: 90%;
+            width: 5px;
+            flex:1;
+    
+            .line{
+                height: 300px;
+                width: 3px;
+                background-color: #dd6e42;
+                margin-top: 30px;
+            }
+        }
+
+        .infocont{
+            margin-top: 15px;
+            flex:40;
+            height: auto;
+            padding-left: 100px;
+
+            .quotecontainer{
+                height: 200px;
+            
+                .firstquote{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+
+                .parag{
+                    margin-top: 22px;
+                }
+
+                .orbutton{
+                    margin-top: 57px;
+                    text-align: center;
+                }
+
+            }
+
+        }
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1156px){
+    .coursescont{
+        border: 2px solid green;
+        .courses{
+            margin-left: 40px;
+        }
+
+        .moreinfo{
+            margin-right: 40px;
+        }
+        
+    }
+}
+
+@media (max-width: 899px){
+    .coursescont{
+   
+        flex-direction: column;
+        height: 870px;
+        .courses{
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            flex-direction: column;
+            .orangebutton{
+                align-self: center;
+                margin-top: 60px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .moreinfo{
+            margin-right: 40px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            flex-direction: column;
+            padding-top: 0px;
+            .linedecor{
+                height: 5px;
+                width: 100%;
+                flex:1;
+                display: flex;
+                justify-content: center;
+                .line{
+                    height: 3px;
+                    width: 80vw;
+                    background-color: #dd6e42;
+                    margin-top: 0px;
+                    
+                }
+            }
+
+            .infocont{
+                padding-left: 10px;
+            }
+        }
+    }
+}

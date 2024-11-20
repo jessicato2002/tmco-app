@@ -1,0 +1,118 @@
+
+.timecont{
+    height: 1000px;
+    background-color: #253342;
+    display: flex;
+    padding-top: 30px;
+
+    .lefttimecont{
+        
+        flex:1;
+
+        .singleyearcont{
+            margin-bottom: 220px;
+        }
+        
+    }
+
+    .middlelinecont{
+        width: 5px;
+        background-color: white;
+    }
+
+    .righttimecont{
+        flex:1;
+        .singleyearcont{
+            flex-direction: row-reverse;
+            margin-top: 190px;
+
+            .yeartext{
+                margin-left: 20px;
+            }
+
+        }
+        .singleyearcont:nth-child(2){
+           
+            margin-top: 220px;
+        }
+
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1300px){
+    .timecont{
+     
+        height: 1200px;
+        .lefttimecont, .righttimecont{
+            .singleyearcont{
+                
+                .yeartext{
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1099px){
+    .timecont{
+        
+        height: 1350px;
+        .middlelinecont{
+            margin-right: 50px;
+        }
+
+        .lefttimecont{
+            .singleyearcont{
+                margin-bottom: 30px;
+
+                .yeartext{
+                    width: 500px;
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 480px) and (max-width: 849px){
+    .timecont{
+       
+        height: 1350px;
+        .middlelinecont{
+            margin-right: 50px;
+        }
+
+        .lefttimecont{
+            .singleyearcont{
+                margin-bottom: 30px;
+                margin-left: 15px;
+                .yeartext{
+                    width: 50vw;
+                    height: 200px;
+                }
+
+                .yearcircle{
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .yearline{
+                    width: 40px;
+                }
+
+            }
+        }
+
+    }
+}
+
+@media(max-width: 479px){
+    .timecont{
+        border: 3px solid green;
+    }
+}
