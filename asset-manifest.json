@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tmco-app/static/css/main.06fd74fe.css",
+    "main.js": "/tmco-app/static/js/main.96af9042.js",
+    "static/js/453.b6bf2fca.chunk.js": "/tmco-app/static/js/453.b6bf2fca.chunk.js",
+    "static/media/tomheadshot.png": "/tmco-app/static/media/tomheadshot.1f66c518a9f2d1c85e42.png",
+    "static/media/heximage.png": "/tmco-app/static/media/heximage.b411fccf6af9ab86aaef.png",
+    "static/media/tomfullheadshot.jpg": "/tmco-app/static/media/tomfullheadshot.ff2800c004bea740d909.jpg",
+    "static/media/xlogo.png": "/tmco-app/static/media/xlogo.f60649d2b391d9ca00fb.png",
+    "static/media/tomheadshottwo.png": "/tmco-app/static/media/tomheadshottwo.d6d01e50dbe08d725aae.png",
+    "static/media/decor.png": "/tmco-app/static/media/decor.bf3c83385239e36e8ada.png",
+    "static/media/hexagon.png": "/tmco-app/static/media/hexagon.abf73629d1b60171c2d1.png",
+    "static/media/tflogoblack.png": "/tmco-app/static/media/tflogoblack.8d5e53e4c895a9a52ad4.png",
+    "static/media/iglogo.png": "/tmco-app/static/media/iglogo.ea9417ce203ebf3de4db.png",
+    "static/media/fblogo.png": "/tmco-app/static/media/fblogo.cbc2585cd4ccc5795440.png",
+    "index.html": "/tmco-app/index.html",
+    "main.06fd74fe.css.map": "/tmco-app/static/css/main.06fd74fe.css.map",
+    "main.96af9042.js.map": "/tmco-app/static/js/main.96af9042.js.map",
+    "453.b6bf2fca.chunk.js.map": "/tmco-app/static/js/453.b6bf2fca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fd74fe.css",
+    "static/js/main.96af9042.js"
+  ]
+}
