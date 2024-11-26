@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tmco-app/static/css/main.d3c67117.css",
+    "main.css": "/tmco-app/static/css/main.b8854ab5.css",
     "main.js": "/tmco-app/static/js/main.589380ef.js",
     "static/js/453.b6bf2fca.chunk.js": "/tmco-app/static/js/453.b6bf2fca.chunk.js",
     "static/media/tomheadshot.png": "/tmco-app/static/media/tomheadshot.1f66c518a9f2d1c85e42.png",
@@ -14,12 +14,12 @@
     "static/media/iglogo.png": "/tmco-app/static/media/iglogo.ea9417ce203ebf3de4db.png",
     "static/media/fblogo.png": "/tmco-app/static/media/fblogo.cbc2585cd4ccc5795440.png",
     "index.html": "/tmco-app/index.html",
-    "main.d3c67117.css.map": "/tmco-app/static/css/main.d3c67117.css.map",
+    "main.b8854ab5.css.map": "/tmco-app/static/css/main.b8854ab5.css.map",
     "main.589380ef.js.map": "/tmco-app/static/js/main.589380ef.js.map",
     "453.b6bf2fca.chunk.js.map": "/tmco-app/static/js/453.b6bf2fca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3c67117.css",
+    "static/css/main.b8854ab5.css",
     "static/js/main.589380ef.js"
   ]
 }
