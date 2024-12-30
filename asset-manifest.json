@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tmco-app/static/css/main.cc618587.css",
-    "main.js": "/tmco-app/static/js/main.7ab667f5.js",
+    "main.css": "/tmco-app/static/css/main.870175da.css",
+    "main.js": "/tmco-app/static/js/main.0cd762e0.js",
     "static/js/453.b6bf2fca.chunk.js": "/tmco-app/static/js/453.b6bf2fca.chunk.js",
     "static/media/tomheadshot.png": "/tmco-app/static/media/tomheadshot.1f66c518a9f2d1c85e42.png",
     "static/media/largecircle.png": "/tmco-app/static/media/largecircle.0a62c0286a9242cad653.png",
@@ -19,12 +19,12 @@
     "static/media/linkedinlogo.png": "/tmco-app/static/media/linkedinlogo.63b96b9ea7fdfd7a5ee0.png",
     "static/media/whitecheckmark.png": "/tmco-app/static/media/whitecheckmark.95fcd31eb3db3aba19c8.png",
     "index.html": "/tmco-app/index.html",
-    "main.cc618587.css.map": "/tmco-app/static/css/main.cc618587.css.map",
-    "main.7ab667f5.js.map": "/tmco-app/static/js/main.7ab667f5.js.map",
+    "main.870175da.css.map": "/tmco-app/static/css/main.870175da.css.map",
+    "main.0cd762e0.js.map": "/tmco-app/static/js/main.0cd762e0.js.map",
     "453.b6bf2fca.chunk.js.map": "/tmco-app/static/js/453.b6bf2fca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc618587.css",
-    "static/js/main.7ab667f5.js"
+    "static/css/main.870175da.css",
+    "static/js/main.0cd762e0.js"
   ]
 }
