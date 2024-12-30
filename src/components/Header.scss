@@ -51,6 +51,8 @@ $border: 2px solid;
                 margin-top: 12px;
             }
 
+            
+
             img{
                 width: 15px;
                 height: 15px;
@@ -71,7 +73,7 @@ $border: 2px solid;
 
             .orangevertline{
                 width: 5px;
-                height: 20px;
+                height: 50px;
                 background-color: #dd6e42; 
                 margin-right: 10px;
             }
@@ -126,7 +128,7 @@ $border: 2px solid;
 
 @media (min-width: 1024px) and (max-width: 1156px){
     .body{
-        
+        height: 35rem;
         .cont1{
             .description{
                 width: 300px;
@@ -153,7 +155,7 @@ $border: 2px solid;
 
 @media (min-width: 800px) and (max-width: 1023px){
     .body{
-        height: 33rem;
+        height: 36rem;
         .cont1{
             width: 20vw;
             .description{
@@ -179,13 +181,48 @@ $border: 2px solid;
     }
 }
 
-@media (max-width: 799px){
+@media (min-width: 550px) and (max-width: 799px){
     .body{
         flex-direction: column-reverse;
         height: 800px;
+        
         .cont1{
             padding-left: 40px;
             padding-right: 50px;
+            .description{
+                padding-right:50px;
+            }
+
+            .topquote{
+                margin-bottom: 40px;
+            }
+        }
+
+        .cont2{
+            .picsection{
+                .headshot{
+                    width: 60vw;
+                    
+                }
+    
+                .largecircle{
+                    width: 56vw; 
+                    height: 100%;
+                }
+    
+            }
+        }
+    }
+}
+
+@media (max-width: 549px){
+    .body{
+        flex-direction: column-reverse;
+        height: 800px;
+        
+        .cont1{
+            padding-left: 15px;
+            padding-right: 15px;
             .description{
                 padding-right:50px;
             }

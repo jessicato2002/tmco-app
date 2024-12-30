@@ -4,7 +4,7 @@ import './BusinessActivity.scss';
 function BusinessActivity(){
     return(
         <div className="busactcontainer">
-            <h1>TMCO's Current Business Activity</h1>
+            <h1>Other TMCO Business Activities</h1>
             <div id="circlecont">
                 <div className="circle">
                     <p>Entrepreneurship and Management Consulting</p>

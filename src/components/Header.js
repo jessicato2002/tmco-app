@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Header.scss';
 import orangearrow from '../images/orangearrow.png'
 import tompic from '../images/tomheadshot.png'
@@ -10,15 +11,24 @@ function Header(){
             <div className="cont1">
                 <h1>Innovative, Professional, Competent</h1>
                 <div className="orangeLine"></div>
-                <p className="description">Founded in 2004, the Tafolla-Manzano company (TMCO) aims to bring together all of it’s founder’s talents and experience, to offer users the opportunity to succeed in their careers and life. Along with his current expertise, he aims to expand the Sillicon Valley tech hub to teach young adults meaningful skills needed in Silicon Valley.</p>
+                <p className="description">
+                    In 2019, Tom Tafolla obtained permission from the California Bureau for Private Postsecondary Education (BPPE) to operate a business he named the Silicon Valley Tech Hub.
+                    Later, the business was renamed the Tafolla-Manzano Company.
+                    TMCO is a diversified, privately-held business, focused on reskilling and upskilling training.
+                    Others have described the company as a kind of mini-Coursera.
+                </p>
                 <div className="learnmore">
-                    <p>Learn More</p>
-                    <img src={orangearrow} alt="orange arrow"></img>
+                    <Link to="/more" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <p>Learn More</p>
+                    </Link>
+                    <Link to="/more">
+                        <img src={orangearrow} alt="orange arrow"></img>
+                    </Link>
                 </div>
                 <div className="topquote">
                     <div className="quotewrapper">
                         <div className="orangevertline"></div>
-                        <p className="quote">"My Focus is On Success"</p>
+                        <p className="quote">"As a business leader, <br></br>I focus on success"</p>
                     </div>
                     <p>Tom Tafolla, J.D</p>   
                     <p>Owner/Founder </p>

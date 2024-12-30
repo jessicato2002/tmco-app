@@ -1,11 +1,22 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './ContactForm.scss'
+import {Link} from 'react-router-dom';
+import whitecheckmark from '../images/whitecheckmark.png';
+import OrangeButton from './OrangeButton';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mpwzpwqv"); // Replace with your Formspree project ID
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+        return <div className="submitcontent">
+        <img src={whitecheckmark}></img>
+        <h2>Thank you!</h2>
+        <p>We have received your submission and will get back to you as soon as possible.</p>
+        <p>In the meantime, feel free to learn more about the Tafolla-Manzano Company</p>
+        <Link to="/more">
+        <OrangeButton width='200px'>Learn More </OrangeButton>
+        </Link>
+        </div>;
   }
   return (
     <form onSubmit={handleSubmit} className="contform">

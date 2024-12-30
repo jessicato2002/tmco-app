@@ -7,29 +7,38 @@
     display: flex;
     justify-content: space-between;
 
-
     .footsecone{
+      
         padding-top: 20px;
+        display: flex;
+        align-items: center;
         img{
-            width: 50px;
+            width: 80px;
         }
 
         p{
             width: 180px;
+            padding-left: 30px;
         }
 
     }
 
     .footsectwo{
+
         width: 350px;
         display: flex;
         align-items: center;
         .footerlinks{
+            
             list-style-type: none;
             display: flex; 
             justify-content: space-around;
             width: 100%;
             a{
+               
+                margin-right: 15px;
+                height: 35px;
+                display: flex;
                 text-decoration: none;
                 color: black;
             }
@@ -37,14 +46,23 @@
     }
 
     .footsecthree{
-        width: 200px;
+    
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        
 
-        img{
-            width: 40px;
-            height: 40px;
+        div{
+            
+            padding-left: 20px;
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 40px;
+                height: 40px;
+            }
         }
         
     }
@@ -52,17 +70,34 @@
     
 }
 
+@media (min-width:767px) and (max-width: 910px){
+    .footercont{
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 
-@media (max-width: 766px){
+
+@media (min-width:550px) and (max-width: 766px){
     .footercont{
         padding-left: 40px;
         padding-right: 40px;
-
+    
+        .footsecone{
+        
+            width: 220px;
+            p{
+                padding-left: 15px;
+            }
+        }
         .footsectwo{
+           
             .footerlinks{
                 display: flex; 
                 flex-direction: column;
                 align-items: center;
+                padding-left: 0px;
                 li{
                     margin-top: 5px;
                     margin-bottom: 5px;
@@ -72,10 +107,84 @@
         }
 
         .footsecthree{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            div{
+                width: 100px;
+                display: flex;
+                padding-left: 0px;
+                justify-content: space-between;
+                img{
+                    width: 35px;
+                    height: 35px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 549px){
+    .footercont{
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        .footsecone{
+            width: 170px;
+            margin-right: 0px;
+            margin-left: 0px;
+            
+            display: flex;
+            flex-direction: column;
+            
             img{
-                width: 35px;
-                height: 35px;
-                padding: 10px;
+                width: 50px;
+            }
+            p{
+                padding-left: 10px;
+                width: 150px;
+            }
+        }
+
+        .footsectwo{
+            width: 200px;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: center;
+            .footerlinks{
+                display: flex; 
+                flex-direction: column;
+                align-items: center;
+                padding-left: 0px;
+                width: 70px;
+                li{
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    width: 40px;
+                }
+            }
+        }
+
+        .footsecthree{
+            width: 200px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            div{
+                width: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 0px;
+                img{
+                    width: 25px;
+                    height: 25px;
+                    padding: 0px;
+                }
             }
         }
     }

@@ -18,7 +18,7 @@ function FormContainer(){
                         <div className="contactcont">
                             <div>
                                 <h3>Call Us</h3>
-                                <p>(408)881-3598</p>
+                                <p>(408) 881-3598</p>
                             </div>
 
                             <div>

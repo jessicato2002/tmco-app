@@ -1,3 +1,28 @@
+.submitcontent{
+    
+    color: white;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    img{
+        width: 150px;
+    }
+
+    .orangebutton{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
 
 .contform{
     display: flex;
@@ -12,6 +37,7 @@
         margin-bottom: 25px;
         border: 1px solid white;
         background-color: #253342;
+        color: white;
     }
 
     input{
@@ -28,6 +54,11 @@
         background-color: #dd6e42;
         border: none;
         color: white;
+        font-size: 16px;
+    }
+
+    button:hover{
+        background-color: #c3562b;
     }
 
     p{
@@ -48,13 +79,18 @@
     .radio-group{
         display: flex;
         flex-direction: column;
-        width: 330px;
+        width: 270px;
         margin-bottom: 20px;
         margin-top: 8px;
 
         .radio-one, .radio-two{
             display: flex;
             align-items: center;
+            margin-bottom: 20px;
+                input{
+                    width: 40px;
+                    margin: 0px;
+                }
         }
 
         input{

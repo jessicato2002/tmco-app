@@ -27,17 +27,16 @@ function Timeline(){
         <div className="timecont">
             <div className="lefttimecont">
                 <YearCont 
-                yeartextholder="As an entrpreneuer, professor Tafolla begins 
-                providing legal research and writing services to attorneys, shortly after graduating from the 
-                University of San Francisco, School of Law." 
+                yeartextholder="In his first experience as an entrepreneur, Tom provided legal research
+                services to solo practice attorneys and small law firms in San Jose after
+                graduating from law school in 1989 (USF)." 
                 yearcircholder="1990" 
                 />
 
                 {isMobileView && (
                     <div>
                         <YearCont 
-                        yeartextholder="Tom beings teaching as an adjunct undergraduate professor of business for National Hispanic 
-                        University (NHU) and continues in this role until NHU’s closing in 2015."
+                        yeartextholder="Tom was hired by Dr. Roberto Cruz, the founder and President of the National Hispanic University. The first classes he taught were in Business Law and general business administration. He continued teaching for NHU in East San Jose, off and on, until the school’s closure in 2015."
                         yearcircholder="1992" 
                         />  
                     </div>
@@ -45,16 +44,19 @@ function Timeline(){
                 )}
 
                 <YearCont 
-                yeartextholder="Tom extends his teaching experience and 
-                exclusively works at training international graduate students in MBA, engineering, and doctorate 
-                programs. He is still actively involved in preparing students to enter and compete in technology and business-oriented job functions." 
+                yeartextholder="In this year, Tom began a long career of teaching graduate-level foreign
+                students in the areas of business and engineering. He still teaches and
+                trains students from around the world to compete in Silicon Valley and
+                other tech-oriented environments." 
                 yearcircholder="2011" 
                 />
 
                 {isMobileView && (
                     <div>
                         <YearCont 
-                        yeartextholder="Tom is responsible for co-founding a university business incubator. He works on this until 2019."
+                        yeartextholder="Under the leadership of Dr. Gregory O’Brien, the former Chancellor of the
+                        University of New Orleans, Tom and Dr. O’Brien co-founded a business
+                        incubator to nurture tech-oriented startup ideas."
                         yearcircholder="2017" 
                         />    
                     </div>
@@ -62,8 +64,10 @@ function Timeline(){
                 )}
 
                 <YearCont 
-                yeartextholder="Tom was the recipient of a fellowship from the 
-                Lemelson Center for the Story of Invention and Innovation. A subnet of the Smithsonian Institution in Washington, D.C." 
+                yeartextholder="Tom received a Lemelson Center fellowship to do patent research at the
+                National Museum of American History, a division of the Smithsonian
+                Institution, the world’s largest museum, education, and research complex
+                located in Washington, D.C." 
                 yearcircholder="2018" 
                 />
 
@@ -76,13 +80,14 @@ function Timeline(){
 
                 <div className="righttimecont">
                     <YearCont 
-                    yeartextholder="Tom beings teaching as an adjunct undergraduate professor of business for National Hispanic 
-                    University (NHU) and continues in this role until NHU’s closing in 2015."
+                    yeartextholder="Tom was hired by Dr. Roberto Cruz, the founder and President of the National Hispanic University. The first classes he taught were in Business Law and general business administration. He continued teaching for NHU in East San Jose, off and on, until the school’s closure in 2015."
                     yearcircholder="1992" 
                     />
 
                     <YearCont 
-                    yeartextholder="Tom is responsible for co-founding a university business incubator. He works on this until 2019."
+                    yeartextholder="Under the leadership of Dr. Gregory O’Brien, the former Chancellor of the
+                    University of New Orleans, Tom and Dr. O’Brien co-founded a business
+                    incubator to nurture tech-oriented startup ideas."
                     yearcircholder="2017" 
                     />
                 </div>

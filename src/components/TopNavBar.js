@@ -6,15 +6,15 @@ import {Link} from 'react-router-dom';
 function TopNavBar(){
     return(
         <div className="topnav">
-            <a href="#" className="logo">
+            <Link to="/">
                 <img src={tf_logo} alt='tf logo'></img>
-            </a>
+            </Link>
             <ul className="headerLinks">
                 <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
-                <li>
-                    <Link to="/svth">SVTH</Link>
+                <li style={{height: "40px"}}>
+                    <Link style={{display:"flex", alignItems: "center" ,height: "40px" }} to="/svth">Skills Training</Link>
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>

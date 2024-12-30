@@ -12,6 +12,7 @@
 .headerLinks {
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 
 .headerLinks a{
@@ -21,17 +22,43 @@
     text-decoration: none;
 }
 
-.topnav .logo img{
+
+
+.topnav img{
     width: 3.6rem;
     padding-top: 10px;
 }
 
 
-@media (max-width: 799px){
+@media (min-width: 550px) and (max-width: 799px){
     .topnav{
         
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .headerLinks li:first-child a{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 549px){
+    .topnav{
+       
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .headerLinks{
+        
+        padding-left: 0px;
+    }
+
+    .headerLinks a{
+        padding-left: 1.1rem;
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
     }
     .headerLinks li:first-child a{
         padding-left: 0px !important;

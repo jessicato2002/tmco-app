@@ -5,11 +5,16 @@ import Quote from './Quote.js';
 function AboutHeader(){
     return(
         <div className="aboutheadercont">
-            <img src={tompic}></img>
+            <img src={tompic} alt="tom's headshot"></img>
             <div className="aboutcont">
                 <h1>About the Owner</h1>
                 <div className="orline"></div>
-                <p className="aboutdesc">Tom Tafolla has over 20 years of experience working in Silicon Valley Tech Companies both as an electromechanical designer of hardware products and in support of senior corporate management in positions such as intellectual property administrator, contracts manager, regulatory compliance specialist, and legal services manager.</p>
+                <p className="aboutdesc">
+                Tom Tafolla has over 30 years of experience in Silicon Valley. He has
+worked as an electromechanical designer, FDA regulatory affairs specialist,
+intellectual property administrator, and as a contracts and legal services
+manager.
+                </p>
                 <div className="categcont">
                    
                     <Quote>Entrepreneur</Quote>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './CoursesOffered.scss';
+import {Link} from 'react-router-dom';
 import OrangeButton from './OrangeButton.js';
 import decor from '../images/decor.png';
 import Quote from './Quote.js';
@@ -18,10 +19,12 @@ function CoursesOffered(){
                         <li>Introduction to Cybersecurity</li>
                         <li>Semiconductor Industry Basics</li>
                     </ul>
-                    <img src={decor} className="decor"></img>
+                    <img src={decor} className="decor" alt="dots and square decor"></img>
                     
                 </div>
-                <OrangeButton width='260px' className="orangebutton">How to Contact the SVTH</OrangeButton>
+                <Link to="/contact">
+                    <OrangeButton width='260px' className="orangebutton">How to Contact the SVTH</OrangeButton>
+                </Link>
             </div>
             <div className="moreinfo">
                 <div className="linedecor">
@@ -35,9 +38,13 @@ function CoursesOffered(){
                         <div className="secondquote">
                             <Quote>"We want to win your trust through performance"</Quote>
                         </div>
-                        <p className="parag">The Sillicon Valley Tech Hub is part of the Tafolla Manzano Company. The goal of SVTH is to provide adults top quality courses to make them competitive applicants in the market.</p>
+                        <p className="parag">
+                            The Silicon Valley Tech Hub is part of the Tafolla-Manzano Company. The goal of our organization is to provide adult learners and professionals with high quality seminars to help develop skills that will make you competitive in the marketplace.
+                        </p>
                         <div className="orbutton">
-                            <OrangeButton width="300px">About the Leadership of SVTH</OrangeButton>
+                            <Link to="/more">
+                                <OrangeButton width="300px">About the Leadership of SVTH & TMCO</OrangeButton>
+                            </Link>
                         </div>
                     </div>
                     

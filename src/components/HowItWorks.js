@@ -4,22 +4,22 @@ import './HowItWorks.scss';
 function HowItWorks(){
     return(
         <div className="howitworkscont">
-            <h1>How it Works</h1>
+            <h1>How to Sign Up for SVTH Seminars</h1>
             <div className="steps">
                 <div className="conts">
                     <h1 className="num">1</h1>
                     <div className="content">
                         <p className="title">Go To CourseStorm</p>
                         <div className="line"></div>
-                        <p className="desc">Navigate to our Coursestorm page link and create an account.</p>
+                        <p className="desc">Click on the CourseStorm link provided</p>
                     </div>
                 </div>
                 <div className="conts">
                     <h1 className="num">2</h1>
                     <div className="content">
-                        <p className="title">Select Courses</p>
+                        <p className="title">Sign Up</p>
                         <div className="line"></div>
-                        <p className="desc">Navigate through our list of courses and select one, or a couple of your favorite courses.</p>
+                        <p className="desc">Follow the instructions provided on the CourseStorm sign-up page.</p>
                     </div>
                 </div>
                 <div className="conts">
@@ -27,7 +27,7 @@ function HowItWorks(){
                     <div className="content">
                         <p className="title">Start Learning</p>
                         <div className="line"></div>
-                        <p className="desc">Gain meaningful skills with courses taught by top professors.</p>
+                        <p className="desc">Gain meaningful skills with courses taught by experienced industry professionals.</p>
                     </div>
                 </div>
             </div>

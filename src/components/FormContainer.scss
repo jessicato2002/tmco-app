@@ -78,6 +78,13 @@
 }
 
 @media (min-width: 900px) and (max-width: 1100px){
+    .submitcontent{
+        
+        color: white;
+        margin-right: 40px;
+        margin-left: 40px;
+        
+    }
     .formcont{
         .formcont1{
             margin-left: 40px;
@@ -115,6 +122,78 @@
 
         .formcont2{
             margin: 0px;
+        }
+    }
+}
+
+@media (min-width: 550px) and (max-width: 700px){
+    .formcont{
+        
+        .formcont1{
+            .dividerline{
+                width: 500px;
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 549px){
+    .formcont{
+        height: 1600px;
+        .formcont1{
+            .dividerline{
+                width: 350px;
+            
+            }
+            .contform{
+                
+                width: 280px;
+                input, textarea{
+                    width: 270px;
+                }
+
+
+                button{
+                    width: 270px;
+                }
+
+            }
+        }
+
+        .formcont2{
+            
+            .bluecirclecont{
+                
+                width: 320px;
+                height: 320px;
+
+                .contactcont{
+                    
+                    margin-left: 70px;
+                    height: 330px;
+                    padding-top: 40px;
+                    div{ 
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        
+                        h3{
+                            margin-bottom: 10px;
+                        }
+        
+                        p{
+                            margin: 5px;
+                            
+                        }
+                    }
+    
+                }
+            }
+
+            .description{
+                
+                width: 280px;
+            }
         }
     }
 }

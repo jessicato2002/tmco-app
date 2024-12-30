@@ -2,7 +2,7 @@
 .coursescont{
     height: 450px;
     background-color: #253342;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-top: 0px;
     border: 1px solid #253342; 
     color: white;
@@ -95,7 +95,7 @@
 
 @media (min-width: 900px) and (max-width: 1156px){
     .coursescont{
-        border: 2px solid green;
+        
         .courses{
             margin-left: 40px;
         }
@@ -107,7 +107,7 @@
     }
 }
 
-@media (max-width: 899px){
+@media (min-width:550px) and (max-width: 899px){
     .coursescont{
    
         flex-direction: column;
@@ -147,6 +147,67 @@
 
             .infocont{
                 padding-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 549px){
+    .coursescont{
+       
+        flex-direction: column;
+        height: 850px;
+        .courses{
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-top: 15px;
+            
+            display: flex;
+            flex-direction: column;
+            .listcont {
+                
+                display: flex;
+                flex-direction: column;
+            }
+            .orangebutton{
+                align-self: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .moreinfo{
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            flex-direction: column;
+            padding-top: 0px;
+            .linedecor{
+                height: 5px;
+                width: 100%;
+                flex:1;
+                padding-bottom: 15px;
+                display: flex;
+                justify-content: center;
+                .line{
+                    height: 3px;
+                    width: 80vw;
+                    background-color: #dd6e42;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+            }
+
+            .infocont{
+                padding-left: 10px;
+                .quotecontainer{
+                    .orbutton{
+                        margin-top: 35px;
+                        .orangebutton{
+                            margin: 0px;
+                        }
+                    }
+                }
             }
         }
     }

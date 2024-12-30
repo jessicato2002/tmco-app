@@ -79,9 +79,9 @@
     }
 }
 
-@media (min-width: 480px) and (max-width: 849px){
+@media (min-width: 550px) and (max-width: 849px){
     .timecont{
-       
+        
         height: 1350px;
         .middlelinecont{
             margin-right: 50px;
@@ -111,8 +111,35 @@
     }
 }
 
-@media(max-width: 479px){
+@media(max-width: 549px){
     .timecont{
-        border: 3px solid green;
+        
+        height: 1450px;
+        .middlelinecont{
+            margin-right: 15px;
+        }
+
+        .lefttimecont{
+            .singleyearcont{
+                margin-bottom: 60px;
+                margin-left: 15px;
+                
+                .yeartext{
+                    width: 180px;
+                    height: 200px;
+                }
+
+                .yearcircle{
+                    width: 80px;
+                    height: 80px;
+                    font-size: 20px;
+                }
+
+                .yearline{
+                    width: 20px;
+                }
+
+            }
+        }
     }
 }
