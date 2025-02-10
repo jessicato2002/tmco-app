@@ -3,7 +3,6 @@ import './Footer.scss';
 import tflogoblack from '../images/tflogoblack.png';
 import fblogo from '../images/fblogo.png';
 import iglogo from '../images/iglogo.png';
-import tiktoklogo from '../images/tiktoklogo.png';
 import ytlogo from '../images/ytlogo.png';
 import linkedinlogo from '../images/linkedinlogo.png';
 import {Link} from 'react-router-dom';
@@ -12,7 +11,7 @@ function Footer(){
     return(
         <div className="footercont">
             <div className="footsecone">
-                <img src={tflogoblack} alt="tf logo black"></img>
+                <img src={tflogoblack} alt="Tafolla-Manzano logo black" loading="lazy"></img>
                 <p>Creating the next generation of leaders</p>
             </div>
             <div className="footsectwo">
@@ -27,13 +26,13 @@ function Footer(){
             </div>
             <div className="footsecthree">
                 <div>
-                <img src={fblogo} alt="facebook logo"></img>
-                <img src={iglogo} alt="instagram logo"></img>
+                <img src={fblogo} alt="Tafolla-Manzano facebook logo" loading="lazy"></img>
+                <img src={iglogo} alt="Tafolla-Manzano instagram logo" loading="lazy"></img>
                 </div>
                 <div>
                 
-                <img src={ytlogo} alt="youtube logo"></img>
-                <img src={linkedinlogo} alt="linkedin logo"></img>
+                <img src={ytlogo} alt="Tafolla-Manzano youtube logo" loading="lazy"></img>
+                <img src={linkedinlogo} alt="Tafolla-Manzano linkedin logo" loading="lazy"></img>
                 </div>
             </div>
         </div>

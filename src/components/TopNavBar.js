@@ -7,7 +7,7 @@ function TopNavBar(){
     return(
         <div className="topnav">
             <Link to="/">
-                <img src={tf_logo} alt='tf logo'></img>
+                <img src={tf_logo} alt='Tafolla-Manzano logo white' loading="lazy"></img>
             </Link>
             <ul className="headerLinks">
                 <li>

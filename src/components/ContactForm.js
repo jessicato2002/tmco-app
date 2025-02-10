@@ -9,7 +9,7 @@ function ContactForm() {
   const [state, handleSubmit] = useForm("mpwzpwqv"); // Replace with your Formspree project ID
   if (state.succeeded) {
         return <div className="submitcontent">
-        <img src={whitecheckmark}></img>
+        <img src={whitecheckmark} alt="white check mark" loading="lazy"></img>
         <h2>Thank you!</h2>
         <p>We have received your submission and will get back to you as soon as possible.</p>
         <p>In the meantime, feel free to learn more about the Tafolla-Manzano Company</p>

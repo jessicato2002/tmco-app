@@ -19,7 +19,7 @@ function CoursesOffered(){
                         <li>Introduction to Cybersecurity</li>
                         <li>Semiconductor Industry Basics</li>
                     </ul>
-                    <img src={decor} className="decor" alt="dots and square decor"></img>
+                    <img src={decor} className="decor" alt="dots and square decor" loading="lazy"></img>
                     
                 </div>
                 <Link to="/contact">

@@ -21,7 +21,7 @@ in the market.
                     <OrangeButton width='200px' >View Current Courses</OrangeButton>  
                 </div>
                 <div className={styles.topquote}>
-                    <img src={tf_logo} alt="tf logo"></img>
+                    <img src={tf_logo} alt="Tafolla-Manzano logo white" loading="lazy"></img>
                     <div className={styles.wholequotecont}>
                         <div className={styles.quotewrapper}>
                             <div className={styles.orangevertline}></div>
@@ -34,7 +34,7 @@ in the market.
             </div>
             <div className={styles.cont2}>
                 <div className={styles.picsection}>
-                    <img src={heximage} alt="decor"></img>
+                    <img src={heximage} alt="decor" loading="lazy"></img>
                 </div>
             </div>
         </div>

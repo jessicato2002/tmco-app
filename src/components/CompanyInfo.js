@@ -10,7 +10,7 @@ function CompanyInfo(){
     return(
         <div className="companyinfocont">
             <div className="cont1">
-                <img className="secondheadshot" src={tomheadshottwo} alt="second headshot"></img>
+                <img className="secondheadshot" src={tomheadshottwo} alt="Tafolla-Manzano CEO's second headshot" loading="lazy"></img>
             </div>
             <div className="cont2">
                 <h1>I help small businesses succeed.</h1>
@@ -21,7 +21,7 @@ function CompanyInfo(){
                     <Link to="/more">
                         <OrangeButton width='250px'>Learn More About Skills Training</OrangeButton>
                     </Link>
-                    <img src={hexagon} alt="hexagon decor"></img>
+                    <img src={hexagon} alt="hexagon decor" loading="lazy"></img>
                 </div>
     
             </div>

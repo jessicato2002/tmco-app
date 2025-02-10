@@ -5,7 +5,7 @@ import Quote from './Quote.js';
 function AboutHeader(){
     return(
         <div className="aboutheadercont">
-            <img src={tompic} alt="tom's headshot"></img>
+            <img src={tompic} alt="Tafolla-Manzano CEO's headshot" loading="lazy"></img>
             <div className="aboutcont">
                 <h1>About the Owner</h1>
                 <div className="orline"></div>

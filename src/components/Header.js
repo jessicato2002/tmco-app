@@ -22,7 +22,7 @@ function Header(){
                         <p>Learn More</p>
                     </Link>
                     <Link to="/more">
-                        <img src={orangearrow} alt="orange arrow"></img>
+                        <img src={orangearrow} alt="orange arrow" loading="lazy"></img>
                     </Link>
                 </div>
                 <div className="topquote">
@@ -36,8 +36,8 @@ function Header(){
             </div>
             <div className="cont2">
                 <div className="picsection">
-                    <img className="headshot" src={tompic} alt="Tom's headshot"></img>
-                    <img className="largecircle" src={largecircle} alt="large orange circle"></img>
+                    <img className="headshot" src={tompic} alt="Tafolla-Manzano CEO's headshot" loading="lazy"></img>
+                    <img className="largecircle" src={largecircle} alt="large orange circle" loading="lazy"></img>
                 </div>
             </div>
         </div>

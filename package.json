@@ -20,9 +20,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "prebuild": "node imagemin.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "imagemin": "node imagemin.mjs"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +46,9 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.25.7",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "imagemin": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0"
   }
 }

@@ -39,7 +39,7 @@ function FormContainer(){
                     <h3 className="reachout">Thank you for reaching out</h3>
                     <p className="description">We’ll get back to you as soon as we can. If you have more urgent questions, feel free to call us.</p>
             
-                    <img src={hexagon} alt="hexagon decor"></img>
+                    <img src={hexagon} alt="hexagon decor" loading="lazy"></img>
             </div>
 
         </div>
