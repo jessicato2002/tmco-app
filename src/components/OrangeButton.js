@@ -1,9 +1,9 @@
 import React from 'react';
-import './OrangeButton.scss'
+import './OrangeButton.scss';
 
 function OrangeButton({width ='150px', children}){
     return(
-        <button className="orangebutton" style={{width}}>
+	<button className="orangebutton" style={{width}}>
             {children}
         </button>
     );

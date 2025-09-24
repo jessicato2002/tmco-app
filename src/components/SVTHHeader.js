@@ -3,6 +3,7 @@ import styles from './SVTHHeader.module.scss';
 import heximage from '../images/heximage.png';
 import OrangeButton from './OrangeButton.js';
 import tf_logo from '../images/tflogo.png';
+import {Link} from 'react-router-dom';
 
 function SVTHHeader(){
     return(
@@ -17,9 +18,10 @@ jobs. The SVTH takes people from their current level of functioning and
 helps them acquire new skills and knowledge to be more competitive
 in the market.
                 </p>
-                <div className={styles.learnmore}>
-                    <OrangeButton width='200px' >View Current Courses</OrangeButton>  
-                </div>
+                
+		<Link to="https://tafolla-manzano.coursestorm.com">
+                    <OrangeButton width='200px' >View Current Courses</OrangeButton>
+		</Link>
                 <div className={styles.topquote}>
                     <img src={tf_logo} alt="Tafolla-Manzano logo white" loading="lazy"></img>
                     <div className={styles.wholequotecont}>
